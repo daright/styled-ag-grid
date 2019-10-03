@@ -5,6 +5,8 @@
   "dependencies": {
     "ag-grid-community": "^20.1.0",
     "ag-grid-react": "^20.1.1",
+    "polished": "^3.4.1",
+    "ramda": "^0.26.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",

@@ -5,6 +5,7 @@ import {AgGridReact} from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 import styled from 'styled-components';
+import TonedDiv from './TonedDiv';
 
 class App extends Component {
     constructor(props) {
@@ -54,6 +55,7 @@ class App extends Component {
                         width: '600px',
                     }}
                 >
+                    <TonedDiv />
                     <AgGridReact columnDefs={this.state.columnDefs} rowData={this.state.rowData} />
                 </div>
             </StyledDiv>
